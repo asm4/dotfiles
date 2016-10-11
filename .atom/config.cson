@@ -1,0 +1,46 @@
+"*":
+  "atom-material-ui":
+    colors:
+      abaseColor:
+        red: 96
+        green: 125
+        blue: 139
+        alpha: 1
+      predefinedColor: "Blue Grey"
+    fonts:
+      fontSize: 15
+    tabs:
+      compactTabs: true
+      tintedTabBar: true
+    treeView:
+      blendTabs: true
+      compactList: true
+    ui:
+      animations: false
+      panelContrast: true
+  "atom-typescript": {}
+  core:
+    disabledPackages: [
+      "linter-pep8"
+    ]
+    themes: [
+      "atom-material-ui"
+      "firewatch-syntax"
+    ]
+  editor:
+    fontSize: 12
+  "exception-reporting":
+    userId: "cd424c9e-585c-349c-5b57-17db3b3b9bea"
+  "linter-python":
+    executablePath: "/Library/Frameworks/Python.framework/Versions/3.4/bin/pylama"
+    withMcCabe: true
+    withPep8: true
+    withPyflakes: true
+  pigments:
+    markerType: "gutter"
+  "seti-ui":
+    themeColor: "Green"
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
