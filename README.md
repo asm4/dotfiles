@@ -7,5 +7,4 @@ Update atom package list with:
 
 Install atom packages with:
 
-    apm install cat `atom.packages.list`
-
+    apm install `cat atom.packages.list`
